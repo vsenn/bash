@@ -45,6 +45,8 @@ $ cat obsidian-tasks-plugin/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat omnisearch/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
+$ cat oz-clear-unused-images/manifest.json | grep isDesktopOnly
+  "isDesktopOnly": false
 $ cat table-editor-obsidian/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true,
 $ cat quick-links/manifest.json | grep isDesktopOnly
