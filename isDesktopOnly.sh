@@ -36,7 +36,7 @@ $ cat obsidian-importer/manifest.json | grep isDesktopOnly
 $ cat obsidian-link-embed/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat obsidian-linter/manifest.json | grep isDesktopOnly
-  "isDesktopOnly": true
+  "isDesktopOnly": false
 $ cat obsidian-livesync/manifest.json | grep isDesktopOnly
     "isDesktopOnly": false
 $ cat obsidian-mindmap-nextgen/manifest.json | grep isDesktopOnly
