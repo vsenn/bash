@@ -32,7 +32,7 @@ $ cat obsidian-focus-plugin/manifest.json | grep isDesktopOnly
 $ cat obsidian-icon-folder/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat obsidian-importer/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": false
+  "isDesktopOnly": true
 $ cat obsidian-link-embed/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat obsidian-linter/manifest.json | grep isDesktopOnly
