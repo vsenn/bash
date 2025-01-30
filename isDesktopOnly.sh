@@ -30,7 +30,7 @@ $ cat obsidian-excalidraw-plugin/manifest.json | grep isDesktopOnly
 $ cat obsidian-focus-plugin/manifest.json | grep isDesktopOnly
 	"isDesktopOnly": false
 $ cat obsidian-icon-folder/manifest.json | grep isDesktopOnly
-  "isDesktopOnly": true
+  "isDesktopOnly": false
 $ cat obsidian-importer/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat obsidian-link-embed/manifest.json | grep isDesktopOnly
@@ -39,8 +39,6 @@ $ cat obsidian-linter/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat obsidian-livesync/manifest.json | grep isDesktopOnly
     "isDesktopOnly": false
-$ cat obsidian-mindmap-nextgen/manifest.json | grep isDesktopOnly
-  "isDesktopOnly": true,
 $ cat obsidian-tasks-plugin/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat omnisearch/manifest.json | grep isDesktopOnly
