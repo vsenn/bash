@@ -65,6 +65,4 @@ $ cat text-extractor/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat widgets/manifest.json | grep isDesktopOnly
 	"isDesktopOnly": false
-$ cat wikipedia-search/manifest.json | grep isDesktopOnly
-  "isDesktopOnly": true
 $
