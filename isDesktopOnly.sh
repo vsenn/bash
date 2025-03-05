@@ -1,21 +1,11 @@
-$ cd ~/Documents/Obsidian/.obsidian/plugins
-$ cat ai-image-analyzer/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": true
+$ cd ~/Obsidian/.obsidian/plugins
 $ cat beautitab/manifest.json | grep isDesktopOnly
 	"isDesktopOnly": false
-$ cat calendar/manifest.json | grep isDesktopOnly
-  "isDesktopOnly": false,
 $ cat dataview/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
-$ cat extract-url/manifest.json | grep isDesktopOnly
-  "isDesktopOnly": true,
-$ cat file-explorer-plus/manifest.json | grep isDesktopOnly
-  "isDesktopOnly": true
 $ cat hide-folders/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat highlightr-plugin/manifest.json | grep isDesktopOnly
-  "isDesktopOnly": true
-$ cat ibook/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat image2latex/manifest.json | grep isDesktopOnly
 cat: image2latex/manifest.json: No such file or directory
@@ -31,8 +21,6 @@ $ cat obsidian-focus-plugin/manifest.json | grep isDesktopOnly
 	"isDesktopOnly": false
 $ cat obsidian-icon-folder/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
-$ cat obsidian-importer/manifest.json | grep isDesktopOnly
-  "isDesktopOnly": true
 $ cat obsidian-link-embed/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat obsidian-linter/manifest.json | grep isDesktopOnly
@@ -47,8 +35,6 @@ $ cat oz-clear-unused-images/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat table-editor-obsidian/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true,
-$ cat quick-links/manifest.json | grep isDesktopOnly
-  "isDesktopOnly": true
 $ cat quick-tagger/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat sheet-plus/manifest.json | grep isDesktopOnly
