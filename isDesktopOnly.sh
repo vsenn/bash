@@ -1,6 +1,6 @@
 $ cd ~/Obsidian/.obsidian/plugins
 $ cat beautitab/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": false
+  "isDesktopOnly": false
 $ cat dataview/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat hide-folders/manifest.json | grep isDesktopOnly
@@ -18,7 +18,7 @@ $ cat obsidian-calibre-plugin/manifest.json | grep isDesktopOnly
 $ cat obsidian-excalidraw-plugin/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat obsidian-focus-plugin/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": false
+  "isDesktopOnly": false
 $ cat obsidian-icon-folder/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat obsidian-link-embed/manifest.json | grep isDesktopOnly
@@ -40,7 +40,7 @@ $ cat quick-tagger/manifest.json | grep isDesktopOnly
 $ cat sheet-plus/manifest.json | grep isDesktopOnly
 cat: sheet-plus/manifest.json: No such file or directory
 $ cat shiki-highlighter/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": false
+  "isDesktopOnly": false
 $ cat smart-connections/manifest.json | grep isDesktopOnly
 cat: smart-connections/manifest.json: No such file or directory
 $ cat smart-second-brain/manifest.json | grep isDesktopOnly
@@ -50,5 +50,5 @@ cat: surfing/manifest.json: No such file or directory
 $ cat text-extractor/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat widgets/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": false
+  "isDesktopOnly": false
 $
