@@ -59,6 +59,8 @@ $ cat surfing/manifest.json | grep isDesktopOnly
 cat: surfing/manifest.json: No such file or directory
 $ cat text-extractor/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
+$ cat vault-size-history/manifest.json | grep isDesktopOnly
+  "isDesktopOnly": true
 $ cat widgets/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $
