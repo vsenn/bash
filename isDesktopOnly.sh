@@ -26,7 +26,7 @@ $ cat obsidian-excalidraw-plugin/manifest.json | grep isDesktopOnly
 $ cat obsidian-focus-plugin/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat obsidian-icon-folder/manifest.json | grep isDesktopOnly
-  "isDesktopOnly": true
+  "isDesktopOnly": false
 $ cat obsidian-imgur-plugin/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat obsidian-link-embed/manifest.json | grep isDesktopOnly
