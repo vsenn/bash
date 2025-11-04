@@ -5,6 +5,8 @@ $ cat beautitab/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat better-search-views/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
+$ cat change-case/manifest.json | grep isDesktopOnly
+  "isDesktopOnly": false
 $ cat chess-study/manifest.json | grep isDesktopOnly
 	"isDesktopOnly": true
 $ cat chesser-obsidian/manifest.json | grep isDesktopOnly
@@ -14,7 +16,7 @@ $ cat code-emitter/manifest.json | grep isDesktopOnly
 $ cat crossbow/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat csv-lite/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": true
+  "isDesktopOnly": true
 $ cat custom-image-auto-uploader/manifest.json | grep isDesktopOnly
 	"isDesktopOnly": false,
 $ cat dataview/manifest.json | grep isDesktopOnly
@@ -84,7 +86,7 @@ $ cat obsidian-focus-plugin/manifest.json | grep isDesktopOnly
 $ cat obsidian-gist/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat obsidian-icon-folder/manifest.json | grep isDesktopOnly
-  "isDesktopOnly": false
+  "isDesktopOnly": true
 $ cat obsidian-imgur-plugin/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat obsidian-kanban/manifest.json | grep isDesktopOnly
@@ -116,6 +118,8 @@ $ cat oz-clear-unused-images/manifest.json | grep isDesktopOnly
 $ cat paperless/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat pdf-plus/manifest.json | grep isDesktopOnly
+  "isDesktopOnly": false
+$ cat pexels-banner/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat query-json/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
