@@ -1,6 +1,8 @@
 $ cd ~/Obsidian/.obsidian/plugins
 $ cat abbreviations/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": true
+  "isDesktopOnly": true
+$ cat ai-providers/manifest.json | grep isDesktopOnly
+  "isDesktopOnly": false
 $ cat beautitab/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat better-search-views/manifest.json | grep isDesktopOnly
@@ -8,7 +10,7 @@ $ cat better-search-views/manifest.json | grep isDesktopOnly
 $ cat change-case/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat chess-study/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": true
+  "isDesktopOnly": true
 $ cat chesser-obsidian/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat code-emitter/manifest.json | grep isDesktopOnly
@@ -18,21 +20,25 @@ $ cat crossbow/manifest.json | grep isDesktopOnly
 $ cat csv-lite/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat custom-image-auto-uploader/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": false,
+  "isDesktopOnly": false,
 $ cat dataview/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat disk-usage/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": false
+  "isDesktopOnly": false
 $ cat docxer/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": false
+  "isDesktopOnly": false
+$ cat execute-code/manifest.json | grep isDesktopOnly
+  "isDesktopOnly": true
 $ cat file-explorer-note-count/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat find-unlinked-files/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat fold-properties/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
+$ cat fold-properties-by-default/manifest.json | grep isDesktopOnly
+  "isDesktopOnly": false
 $ cat folder-navigator/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": false
+  "isDesktopOnly": false
 $ cat frontmatter-viewmode/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat gistr/manifest.json | grep isDesktopOnly
@@ -44,7 +50,7 @@ $ cat hide-folders/manifest.json | grep isDesktopOnly
 $ cat highlightr-plugin/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat hill-charts/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": false
+  "isDesktopOnly": false
 $ cat image-converter/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false,
 $ cat images-to-gist/manifest.json | grep isDesktopOnly
@@ -55,16 +61,20 @@ $ cat lazy-plugins/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat link-headers-directly/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
+$ cat local-gpt/manifest.json | grep isDesktopOnly
+  "isDesktopOnly": false,
 $ cat markwhen/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat mini-toolbar/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": true
+  "isDesktopOnly": true
 $ cat mrj-crosslink-between-notes/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat multi-properties/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat multi-tag/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
+$ cat music-code-blocks/manifest.json | grep isDesktopOnly
+  "isDesktopOnly": false
 $ cat obsidian-calibre-plugin/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat obsidian-chartsview-plugin/manifest.json | grep isDesktopOnly
@@ -86,11 +96,11 @@ $ cat obsidian-focus-plugin/manifest.json | grep isDesktopOnly
 $ cat obsidian-gist/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat obsidian-icon-folder/manifest.json | grep isDesktopOnly
-  "isDesktopOnly": true
+  "isDesktopOnly": false
 $ cat obsidian-imgur-plugin/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat obsidian-kanban/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": false
+  "isDesktopOnly": false
 $ cat obsidian-link-embed/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat obsidian-linter/manifest.json | grep isDesktopOnly
@@ -104,7 +114,7 @@ $ cat obsidian-plotly/manifest.json | grep isDesktopOnly
 $ cat obsidian-tasks-plugin/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
 $ cat obsidian-textgenerator-plugin/manifest.json | grep isDesktopOnly
-	"isDesktopOnly": false,
+  "isDesktopOnly": false,
 $ cat obsidian-transcription/manifest.json | grep isDesktopOnly
     "isDesktopOnly": false
 $ cat obsidian-vault-statistics-plugin/manifest.json | grep isDesktopOnly
