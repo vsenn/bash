@@ -163,6 +163,8 @@ $ cat unofficial-kinopoisk/manifest.json | grep isDesktopOnly
 	"isDesktopOnly": false
 $ cat vault-size-history/manifest.json | grep isDesktopOnly
   "isDesktopOnly": true
+$ cat version-control/manifest.json | grep isDesktopOnly
+  "isDesktopOnly": false
 $ cat widgets/manifest.json | grep isDesktopOnly
   "isDesktopOnly": false
 $ cat yanki/manifest.json | grep isDesktopOnly
